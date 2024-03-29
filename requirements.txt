@@ -1,2 +1,3 @@
 Django
 google-api-python-client
+psycopg2
