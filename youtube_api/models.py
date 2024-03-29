@@ -9,7 +9,11 @@ class Video(models.Model):
     thumbnail_medium = models.URLField()
     thumbnail_high = models.URLField()
 
-    # Add other fields as needed
+    class Meta:
+        indexes = [
+            models.Index(fields=['published_at'], name='published_at_idx'),
+            models.Index(fields=['title', 'description'], name='title_desc_idx'),
+        ]
 
     def __str__(self):
         return self.title
