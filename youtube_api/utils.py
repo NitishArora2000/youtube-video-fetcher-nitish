@@ -23,7 +23,7 @@ def fetch_videos(api_key_index=0):
         print(f"Using API key: {api_key}")
 
         search_response = youtube.search().list(
-            q='news|tech|sports',
+            q='tech|sports',
             order='date',
             type='video',
             part='id,snippet',
