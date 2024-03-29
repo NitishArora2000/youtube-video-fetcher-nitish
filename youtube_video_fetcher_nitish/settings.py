@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'youtube_api',
+    'background_task'
 ]
 
 MIDDLEWARE = [
@@ -126,3 +127,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+API_KEYS = [
+    'AIzaSyCqEn5YZxGaL1B_P77znTLWfV7l8JlClHI',
+    'AIzaSyDqbD7V8GWt_NyFlKuqaPCJ9hXbebk4zns',
+    'your_api_key_3',
+    'your_api_key_3',
+    'your_api_key_3'
+]
