@@ -9,5 +9,5 @@ class YoutubeApiConfig(AppConfig):
     def ready(self):
         from youtube_api.utils import fetch_videos
         scheduler = BackgroundScheduler()
-        scheduler.add_job(fetch_videos, 'interval', seconds=20)
+        scheduler.add_job(fetch_videos, 'interval', seconds=10)
         scheduler.start()
