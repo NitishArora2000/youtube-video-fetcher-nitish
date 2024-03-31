@@ -129,8 +129,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 API_KEYS = [
-    'AIzaSyCqEn5YZxGaL1B_P77znTLWfV7l8JlClHI',
-    'AIzaSyDqbD7V8GWt_NyFlKuqaPCJ9hXbebk4zns',
-    'AIzaSyAo1ve6h2T1j7AAUbB1J4h4rUHF_TA09-I',
-    'AIzaSyBvVRkwS6Uqe7aA2pGdnicUPTWMnLKQbhU'
+    'AIzaSyCUi9DNk2adUDo1jtXla4eoZqNByMELBfE',
+    'AIzaSyDEG0JwbwrTsgRS781qEMZsdKxJNMPXh7k',
+    'AIzaSyAEXtuStr_EEmdTz5Iga6MrTksMPyBM_fk',
+    'AIzaSyA6NXLIqRskyKUz8etYcs2LFp8TR5Pu3aw'
 ]
