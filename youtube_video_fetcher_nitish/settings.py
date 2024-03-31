@@ -131,7 +131,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 API_KEYS = [
     'AIzaSyCqEn5YZxGaL1B_P77znTLWfV7l8JlClHI',
     'AIzaSyDqbD7V8GWt_NyFlKuqaPCJ9hXbebk4zns',
-    'your_api_key_3',
-    'your_api_key_3',
-    'your_api_key_3'
+    'AIzaSyAo1ve6h2T1j7AAUbB1J4h4rUHF_TA09-I',
+    'AIzaSyBvVRkwS6Uqe7aA2pGdnicUPTWMnLKQbhU'
 ]
