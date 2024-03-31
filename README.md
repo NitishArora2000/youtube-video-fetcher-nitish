@@ -165,5 +165,9 @@ WHERE
     - `published_at_idx` (Index on `published_at` for sorting)
     - `title_desc_idx` (Index on title and description for search queries)
 
+# References
+* YouTube Data API v3: Search List: https://developers.google.com/youtube/v3/docs/search/list
+* YouTube API Samples (Python - Search): https://github.com/topics/youtube-data-api-v3?l=python (This link points to a directory containing various samples. You might need to explore the search.py file within that directory)
+* How to Set Up a Django Project with PostgreSQL on Docker (for potential database setup): https://medium.com/a-layman/learn-docker-from-scratch-containerizing-django-application-with-postgresql-in-docker-8c112bca6e4b
 
 
