@@ -111,7 +111,7 @@ This builds the Docker images, starts the containers, and applies database migra
 ## GET /api/videos/?page_size=<page_size>
 
 * Retrieves a paginated list of videos with the specified number of videos per page.
-* Example: `curl -X GET http://localhost:8000/api/videos/?page_size=30`
+* Example: `curl -X GET http://0.0.0.0:8000/api/videos/?page_size=30`
 * Explanation: Fetches videos from the database, sorted by publishing date (newest first). Users can specify the number of videos per page using the `page_size` parameter.
 
 ### Optimized SQL Query:
@@ -134,7 +134,7 @@ ORDER BY
 ## GET /api/videos/search/?q=<search_query>
 
 * Searches for videos based on the provided query.
-* Example: `curl -X GET http://localhost:8000/api/videos/search/?q=python`
+* Example: `curl -X GET http://0.0.0.0:8000/api/videos/search/?q=python`
 * Explanation: Performs a database search using regular expressions to match the query in video titles and descriptions. The search is case-insensitive and matches whole words.
 
 ### Optimized SQL Query:
